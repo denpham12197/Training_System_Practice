@@ -34,7 +34,6 @@ a:hover, a:active {
     outline: 0;
     list-style: none;
 }
-
 /*--------------------------------------------------------------
 # Helper Utilities
 --------------------------------------------------------------*/
@@ -2715,4 +2714,5 @@ p.footer-copyright {
 
 .footer-bar-nav ul li a:hover {
     color: #34d986;
+
 }

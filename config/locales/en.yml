@@ -30,6 +30,11 @@
 
 en:
   hello: "TrainingSystemPractice"
+  user_not_found : " User not found"
+  message:
+    msg1: "Hello "
+    msg2: "Invalid email/password combination"
+    msg3: "See you again !"
   layouts:
     header:
       title: "Training System"
@@ -41,6 +46,12 @@ en:
       course: "Courses"
       blog: "Blog"
       contact: "Contact"
+      get: "Get started with online courses"
+      bet: "best online"
+      len: "Learning system"
+      read: "read more"
+      user: "Users"
+      logout: "Log out"
     footer:
       str1: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum."
       contact: "Contact Us"
@@ -58,3 +69,18 @@ en:
       RS: "Release Status"
       follow: "Follow Us"
       DPA: "DPA"
+  shared:
+      _error_messages:
+        abc: "The form contains "
+  users:
+    new:
+      signup: "Sign up"
+      email : "email"
+      password: "password"
+      confirmation: "confirmation password"
+      submit: "Create my account"
+  sessions:
+    new:
+      login: "Log in"
+      str1: "Sign up now!"
+      str2: "New user?"
