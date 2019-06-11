@@ -20,7 +20,6 @@
 # the default I18n backend:
 #
 # true, false, on, off, yes, no
-#
 # Instead, surround them with single quotes.
 #
 # en:
@@ -31,3 +30,31 @@
 
 en:
   hello: "TrainingSystemPractice"
+  layouts:
+    header:
+      title: "Training System"
+      sdt: "001-1234-88888 "
+      register: "Register"
+      login: "Login"
+      home : "Home"
+      about: "About"
+      course: "Courses"
+      blog: "Blog"
+      contact: "Contact"
+    footer:
+      str1: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum."
+      contact: "Contact Us"
+      email: "Email: info.deertcreative@gmail.com"
+      phone: "Phone: (+88) 111 555 666"
+      address: "Address: 40 Baria Sreet 133/2 NewYork City, US"
+      quick_link: "Quick Links"
+      about: "About"
+      ToU: "Terms of Use"
+      PP: "Privacy Policy"
+      CU: "Contact Us"
+      document: "Documentation"
+      forum: "Forums"
+      LP: "Language Packs"
+      RS: "Release Status"
+      follow: "Follow Us"
+      DPA: "DPA"
