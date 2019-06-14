@@ -1,0 +1,46 @@
+<div class="container">
+    <h1><%=@course.name %></h1>
+        <div class="row">
+            <div class="col-12 offset-lg-1 col-lg-1">
+
+            </div><!-- .col -->
+            <div class="col-12 col-lg-8">
+                <div class="single-course-wrap">
+                    <div class="course-info flex flex-wrap align-items-center">
+                        <div class="course-author flex flex-wrap align-items-center mt-3">
+                            <img src="images/course-author.jpg" alt="">
+
+                            <div class="author-wrap">
+                                <label class="m-0">Teacher</label>
+                                <% @user.each do |user| %>
+                                <div class="author-name"><p>
+                                    <%= user.email %>
+                                </p></div>
+                                <% end %>
+                            </div><!-- .author-wrap -->
+                        </div><!-- .course-author -->
+
+                        <div class="course-students mt-3">
+                            <label class="m-0">Student</label>
+                            <div class="author-name"><%= link_to @users.count, "/courses/#{@course.id}/member" %></div>
+                        </div><!-- .course-students -->
+                        <!--
+                        <div class="buy-course mt-3">
+                            <a class="btn" href="#">ADD to cart</a>
+                        </div> .buy-course -->
+                    </div><!-- .course-info -->
+
+                    <div class="single-course-cont-section">
+                        <h3>What Will I Learn?</h3>
+
+                        <ul class="p-0 m-0 green-ticked">
+                            <% @subjects.each do |subject| %>
+                            <h3><%= subject.name %></h3>
+                            <li> <%= subject.description%></li>
+                            <% end %>
+                        </ul>
+                    </div>
+                </div><!-- .single-course-wrap -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->

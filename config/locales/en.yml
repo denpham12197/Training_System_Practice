@@ -29,7 +29,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "TrainingSystemPractice"
+  hello: "Training System"
   user_not_found : " User not found"
   message:
     msg1: "Hello "
@@ -84,3 +84,4 @@ en:
       login: "Log in"
       str1: "Sign up now!"
       str2: "New user?"
+      remember: "Remember me on this computer"

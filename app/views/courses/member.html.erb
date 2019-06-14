@@ -1,0 +1,15 @@
+<h1>Member</h1>
+
+<ul class="users">
+  <% @members.each do |member| %>
+    <li>
+      <%= gravatar_for member, size: 50 %>
+      <%= link_to member.email, member %>
+      <% if current_user.supervisor? && !current_user?(member) && (member.supervisor == false) %>
+        | <%= link_to "delete", member, method: :delete,
+          data: { confirm: "You sure?" } %>
+        | <%= link_to "Edit", edit_user_path(current_user) %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
