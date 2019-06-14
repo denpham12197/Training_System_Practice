@@ -30,7 +30,7 @@
               <div class="header-bar-menu">
                 <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
                   <% if logged_in? %>
-                    <li><%= link_to t(".user"), users_path %></li>
+                    <li><%= link_to t(".user"), current_user %></li>
                       /
                     <%= link_to t(".logout"), logout_path, method: :delete %>
                   <% else %>
